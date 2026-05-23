@@ -6,11 +6,11 @@
     "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
     "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend"
   },
-  "devDependencies": {
-    "@secretlint/config-preset-text": "^9.0.0",
-    "@secretlint/node": "^9.0.0",
+"devDependencies": {
+    "@secretlint/config-preset-text": "latest",
+    "@secretlint/node": "latest",
     "concurrently": "^8.2.2",
-    "husky": "^9.0.11",
-    "secretlint": "^9.0.0"
+    "husky": "latest",
+    "secretlint": "latest"
   }
 }
