@@ -1,0 +1,17 @@
+# 1. Ignore the actual secrets file
+.env
+
+# 2. Ignore all node_modules folders (Note: use a slash, not a dot!)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# 3. Ignore production build output directories
+dist/
+build/
+
+# 4. Ignore test coverage folders
+coverage/
+
+# 5. Ignore standard system clutter
+.DS_Store
