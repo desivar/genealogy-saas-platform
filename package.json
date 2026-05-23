@@ -7,8 +7,7 @@
     "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend"
   },
 "devDependencies": {
-    "@secretlint/config-preset-text": "latest",
-    "@secretlint/node": "latest",
+    "@secretlint/secretlint-rule-preset-recommend": "latest",
     "concurrently": "^8.2.2",
     "husky": "latest",
     "secretlint": "latest"
